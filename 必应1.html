@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        #box{
+            width:100px;
+            height:200px;
+            background:pink;
+            display: none;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var oBtn = document.getElementById('btn');
+            var oDiv = document.getElementById('box');
+
+            oBtn.onclick = function(){
+                alert('1');
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="登录" id="btn"/>
+<div id="box"></div>
+</body>
+</html>
